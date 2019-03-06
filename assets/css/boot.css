@@ -48,6 +48,11 @@ Hero/ Main Section
     border-top: solid .3rem #05386B;
 }
 
+.custom-border {
+    border-bottom: solid .3rem #05386B;
+    border-top: solid .3rem #05386B;
+}
+
 .text-center {
 align: center !important;
 font-size: 3rem;
