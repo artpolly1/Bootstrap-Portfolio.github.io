@@ -5,186 +5,25 @@ nav bar
 */
 body {
     color:green;
-}
-.navbar-brand {
-    color:#05386B !important;
-    display: inline-block;
-    padding-top: .5rem;
-    padding-bottom: 0rem;
-    margin-right: 25rem;
-    font-family: 'Carter One', cursive;
-    font-size: 3rem;
-}
+    margin-top: 70px;
+} 
 
-.nav-link {
-    font-family: 'Carter One', cursive;
-    color:#05386B !important;
-    font-size: 1.5rem;
-    margin-bottom: 0rem;
+#header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(https://legacy.travelnoire.com/wp-content/uploads/2017/09/cat-banner-2.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
 }
 
-
-.sticky-top {
-    background-color:#EDF5E1; 
-}
-
-/*
-==================
-Hero/ Main Section 
-==================
-*/
-.title-padding {
-    padding-bottom: 5rem;
-}
-
-.image-size {
-    height: 15rem;
-    width: 15rem;
-}
-
-.primary-bg {
-    background-color: #5DCB95;
-    border-bottom: solid .3rem #05386B;
-    border-top: solid .3rem #05386B;
-}
-
-.custom-border {
-    border-bottom: solid .3rem #05386B;
-    border-top: solid .3rem #05386B;
-}
-
-.text-center {
-align: center !important;
-font-size: 3rem;
-}
-
-.img-fluid {
-    height: 20rem;
-    width: 20rem;
-    border: solid .5rem #05386B ;
-}
-
-h1 {
-    font-family: 'Carter One', cursive;
-    color:#05386B ;
-}
-
-.form-group {
-    margin-left: 2.5rem;
-   padding: .5rem;
-}
-
-.placeholder {
-    margin: 5rem;
-    padding-top: 1rem;
-}
-
-/*
-====================
-icons
-====================
-*/
-
-.link {
-    
-    font-size: 3rem;
-    color: #05386b;
-    margin: 1rem 1rem;
-    bottom: 0;
-}
-
-.link:hover {
-    color: #fff;
-    font-size: 4rem;
-}
-
-.book {
-    font-size: 3rem;
-    color: #05386B;
-    margin: 1rem 1rem;
-
-}
-
-.book:hover {
-    font-size: 4rem;
-    color: #3b5998;
-    
-
-}
-
-.fa-github{
-    font-size: 3rem;
-    color:#05386B;
-    margin: 1rem 1rem;
-}
-
-.fa-github:hover {
-    font-size: 4rem;
-    color: black;
-    margin: 1rem 1rem;
-}
-
-
-.fa-envelope {
-    font-size: 3rem;
-    color:#05386B;
-    margin: 1rem 1rem;
-
-}
-
-.fa-envelope:hover {
-    font-size: 4rem;
-    color:#ea4335;
-    margin: 1rem 1rem;
-}
-
-
-/* 
-=============
-Sub-Sections
-=============
-*/
-
-h2{
-    color:#05386B;
-    padding: 3rem;
-    font-family: 'Carter One', cursive;
-    align: center !important;
-}
-
-p {
-    color:#05386B ;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-}
-
-.secondary-bg {
-    background-color: #5DCB95;
-    border-bottom: solid .3rem #05386B;
-    border-top: solid .3rem #05386B;
-
+#aboutMePhoto {
+    border: 8px solid blue;
+    margin-top: -100px!important;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
 }
 
 
 
-/*
-===============
-Footer
-===============
-*/
 
-.strong {
-    font-family: 'Carter One', cursive;
-    font-size: 2rem;
-}
 
-.footer {
-    padding: 2rem;
-    background-color:#379683 !important;
-    font-family: 'Carter One', cursive;
-    font-size: 1rem;
-    text-align: center;
-    border-top: solid .3rem #05386B;
-}
