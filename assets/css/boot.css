@@ -1,29 +1,173 @@
-/* 
-=================
-nav bar
-=================
-*/
+/* -----------------------------Standard Page Settings-------------------------------------------------- */
 body {
     color:green;
-    margin-top: 70px;
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
 } 
 
+/* -----------------------------Header Section-------------------------------------------------- */
+
+.navbar {
+    background-color: #000080!important;
+    
+}
+
+.nav-item,
+.navbar-brand{
+    color:#fff!important;
+}
+
+.navbar-brand{
+    text-decoration: underline;
+    color: #FF8C00!important;
+    font-weight: 800!important;
+  
+}
 #header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(https://legacy.travelnoire.com/wp-content/uploads/2017/09/cat-banner-2.jpg);
-    height: 70vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
+    padding-top:35vh;
 }
 
-#aboutMePhoto {
-    border: 8px solid blue;
-    margin-top: -100px!important;
-    border-radius: 50%;
-    height: 10rem;
-    width: 10rem;
+#header img{
+    
+        display: block!important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -240px;
+        height:13rem;
+        border: 8px solid rgb(255, 170, 67);
+        border-radius: 50%;
+      
+}
+.text-center {
+    margin-top: -5.8%;
+}
+
+h2, 
+.nameColor {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nameColor{
+    color:#FF8C00;
+}
+
+.textColor{
+    color:#fff!important;
+}
+
+h2 {
+    color:#fff;
+}
+
+/* -----------------------About Me-------------------------------------------------- */
+.about-title {
+    text-transform: uppercase;
+    border-left: 8px solid #FF8C00;
+    padding-left: 8px;
+    color: #FF8C00;
+    font-weight: bold;
+    
+}
+
+.aboutColor{
+    color:#000080;
+}
+
+.fancy-image {
+    border: 10px solid rgba(255,140,0);
+    position:relative;
+    width:285px;
+    top:0; right:0; 
+
+    height:345px;
+    left:-45px;
+}
+
+.p-color{
+    color:#000080;
+    font-weight:bold;
+}
+
+.tg{
+    color:#FF8C00;
+}
+
+.btn-lg {
+    background-color: #000080;
+    color:white;
+
+}
+  
+.aboutMeImage {
+    position: absolute;
+    height:350px;
+    top: -38px;
+    left: -30px;
+  }
+
+
+  .content,
+  p {
+      font-size: 1rem;
+    
+  }
+
+  
+.abilities{
+    background: gray;
+    height: 40vh;
+  
+}
+
+/* -----------------------Creartive works----------------------------------------------- */
+
+#creative-works{
+    background: #fff;
+    height: 75vh;
+    
+}
+
+.center-container{
+    display: center;
 }
 
 
+/* -------------QUOTE------------------------------------ */
 
 
+#quote {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1519219788971-8d9797e0928e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1028&q=80);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding-top:35vh;
+}
 
+
+.re-size{
+    font-size: 3rem;
+    font-weight: bold; 
+    color:#fff;
+}
+
+/* .quoteMargin{
+    margin-top: 50%;
+} */
+
+/* ----------Get In Contact----------------------------- */
+
+#contact{
+    background: white;
+    height: 80vh;
+
+}
+
+.navbar-nav li a {
+    float: right;
+    color: #fff!important;
+}
