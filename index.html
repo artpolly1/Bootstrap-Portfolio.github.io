@@ -46,7 +46,7 @@
                             <span
                                class="txt-rotate"
                                data-period="2000"
-                               data-rotate='[ "Web Developer", "Free Lancer" ]' class="data">
+                               data-rotate='[ "Full Stack Web Developer", " Free Lance Web Developer", "Web Developer" ]' class="data">
                           </h1>
                     </div>   
 
@@ -65,32 +65,29 @@
             </div>
             <div class=" col-9 content">
                        <div class="p-color">
-                       <p>Hi! I'm Arthur. I'm an aspiring Web Developer with the uncanny ability to think critically, problem solve and combine technical understanding with creative application. I am Adept in HTML, CSS, JavaScript, Bootstrap, GitHub, jQuery and NodeJS. With 11 years of demonstrated experience working in several sectors of education, I have acquired the knowledge and skills needed to efficiently move through every step of project planning, from discussion and collaboration to concept and execution. </p>
+                       <p>Hi! My name is Arthur and I am a hardworking , problem-solving, self-motivated Web Developer with a passion for using technical know-how to fuel creative implementation. Adept  in HTML, CSS, JavaScript, Bootstrap, jQuery, React and NodeJS. Enjoys leveraging background in research and education to both make data-driven decisions and provide unique perspectives on how end-users—especially young adults and systems of education—interact with web applications. </p>
                       </div>
 
                        <div>
                             <table class="tg">
                               <tr>
-                                <th>Hometown: Oklahoma City,Oklahoma</th>
-                                <th>Phone:405-761-4570</th>
+                                <td><strong>Hometown : </strong> <em>Oklahoma City,Oklahoma</em></td>
+                                <td><strong>Phone :</strong><em>405-761-4570</em></td>
                               </tr>
+
                               <tr>
-                                  <th>Degree:Doctor Of Education</th>
-                                  <th>Email:Art.Polly1@gmail.com</th>
+                                  <td><strong>Degree:</strong><em>Doctor Of Education</em></td>
+                                  <td><strong>Email :</strong><em>Art.Polly1@gmail.com</em></td>
                                 </tr>
                               <tr>
-                                  <th>Certification:University of Texas Houston</th>
+                                  <td><strong>Certification :</strong><em>Full Stack Web Developer</em></td>
 
-                                  <th>GitHub:https://github.com/artpolly1</th>
+                                  <td><strong>GitHub :</strong><em>https://github.com/artpolly1</em></td>
                                 </tr>
-
-                                <th>GitHub:https://github.com/artpolly1</th>
-                                </tr>
-                                
                               <tr>
-                                  <td>Job Interest: Freelance, Full Stack, Front End</td>
+                                  <td><strong>Job Interest :</strong><em>Project Management, Full Stack Web Development, Front End Web Development</em></td>
 
-                                <td>Linkedin:https://www.linkedin.com/in/arthur-t-polly-79000b107</td>
+                                <td><strong>Linkedin:</strong><em>https:/www.linkedin.com/in/arthur-t-polly-79000b107</em></td>
                                 
                               </tr>
                               
@@ -98,12 +95,13 @@
                        </div>
 
                        <div class="mt-5 mb-5">
-                          <button type="button" class="btn  btn-lg">Download CV</button>
+                        
+                         <a href="./assets/images/APolly--Tech Resume.pdf" class="btn btn-lg"  role="button" download="Apolly Resume">Download Resume</a>
+                      
+                         <!-- <a href="./assets/images/APolly--Tech Resume.pdf" target='_blank' type="button" class="btn btn-lg">Download Resume</a> -->
+
                           <button type="button" class="btn  btn-lg">Send Message</button>
                        </div>
-
-                       
-                  
               </div>
           </div>
         </div>
@@ -180,10 +178,10 @@
 <div class="container text-center mt-3">
   <div class="row">
     <div class="col-10">
-        <form>
+        <form method="GET" action="mailto:art.polly1@gmail.com" enctype="text/plain">
             <div class="form-group">
-              <label for="formGroupExampleInput">Example label</label>
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+              <label for="formGroupExampleInput">Subject</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Subject">
             </div>
             <div class="form-group">
               <label for="formGroupExampleInput2">Another label</label>
@@ -203,9 +201,26 @@
 
   </div>
 </div>
-    
+</section>
 
-        </section>
+
+  <div>Subject</div>
+  <input type="text" name="subject" />
+
+  <div>Name</div>
+  <input name="Name" />
+
+  <div>E-Mail</div>
+  <input name="E-Mail Address" />
+
+  <div>Message</div>
+  <textarea name="Message"></textarea>
+
+  <br/>
+  <input type="submit" value="Send" />
+
+  <input type="hidden" name="body" />
+</form>
 
 
     <!-- bootstrap JS and poppers -->
